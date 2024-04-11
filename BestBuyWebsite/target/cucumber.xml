@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="140.739" tests="7" skipped="0" failures="2" errors="0">
+<testcase classname="Feature to test the main menu functionality of Best Buy website" name="Check PQRS Brand Option displays valid result" time="17.176">
+<system-out><![CDATA[
+Given User launch the homepage..............................................passed
+And User clicks Shop menu button............................................passed
+And User sees Brands option on left navigation..............................passed
+And User sees PQRS Brands option............................................passed
+When User clicks PQRS Brands option.........................................passed
+And User clicks Sony Brand..................................................passed
+Then User a new page launches with Sony products............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to test elements such as navigating to images, toggle-bars, dropdown, checkbox and a product link  on Sony Product page" name="Test to Navigate through Images on Dot Navigation" time="28.156">
+<system-out><![CDATA[
+Given Current page is Sony product page.....................................passed
+When User clicks on dots....................................................passed
+Then Corresponding images are displayed.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to test elements such as navigating to images, toggle-bars, dropdown, checkbox and a product link  on Sony Product page" name="Test In Stock and best Buy Toggle buttons on Sony Product page" time="13.852">
+<system-out><![CDATA[
+Given Current page is Sony product page.....................................passed
+When User clicks on InStock Toggle Bar......................................passed
+And User clicks on BestBuy Toggle Bar.......................................passed
+Then InStock Toggle Bar toggles.............................................passed
+And BestBuy Toggle Bar toggles..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to test elements such as navigating to images, toggle-bars, dropdown, checkbox and a product link  on Sony Product page" name="Test Sort Dropdown on Sony Product page" time="12.925">
+<system-out><![CDATA[
+Given Current page is Sony product page.....................................passed
+When User selects priceLowToHigh............................................passed
+And User checks Online Only checkbox........................................passed
+And User clicks on Playstation Image Box....................................passed
+Then User is directed towards Playstation page..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to test iFrame functionality on Sony Play Station product page of Best Buy website" name="Check Advertisement" time="31.895">
+<system-out><![CDATA[
+Given User is on a selected Play Station Page...............................passed
+When User clicks on a game from sponsorsed shop related product.............passed
+Then A different website launches with the game details.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test to Navigate to login page" name="Test to click on Account link to Login" time="19.678">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[starts-with(@class,'signInOutNavContainer_')]&quot;}
+  (Session info: chrome=123.0.6312.58)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2292a1c614e63d17f50559361b31ada2, findElement {using=xpath, value=//*[starts-with(@class,'signInOutNavContainer_')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.58, chrome: {chromedriverVersion: 123.0.6312.58 (6b4b19e9dfbb..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61639}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61639/devtoo..., se:cdpVersion: 123.0.6312.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2292a1c614e63d17f50559361b31ada2">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[starts-with(@class,'signInOutNavContainer_')]"}
+  (Session info: chrome=123.0.6312.58)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2292a1c614e63d17f50559361b31ada2, findElement {using=xpath, value=//*[starts-with(@class,'signInOutNavContainer_')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.58, chrome: {chromedriverVersion: 123.0.6312.58 (6b4b19e9dfbb..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61639}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61639/devtoo..., se:cdpVersion: 123.0.6312.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2292a1c614e63d17f50559361b31ada2
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at com.fdmgroup.pages.SonyPlayStationPage.clickAccount(SonyPlayStationPage.java:44)
+	at com.fdmgroup.stepdefinition.SonyPlayStationStepDef.user_clicks_on_account_link(SonyPlayStationStepDef.java:41)
+	at ✽.User clicks on account link(file:///C:/Users/Admin/eclipse-workspace/BestBuyWebsite/src/test/resources/Features/f4_SonyPlayStationProduct.feature:8)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User is on a selected Play Station Product............................passed
+When User clicks on account link............................................failed
+Then Signin page appears....................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Test to login to Best Buy site" name="Test to login to best buy website using credentials - Example #1.1" time="16.194">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id='username']&quot;}
+  (Session info: chrome=123.0.6312.58)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2292a1c614e63d17f50559361b31ada2, findElement {using=xpath, value=//*[@id='username']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.58, chrome: {chromedriverVersion: 123.0.6312.58 (6b4b19e9dfbb..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61639}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61639/devtoo..., se:cdpVersion: 123.0.6312.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2292a1c614e63d17f50559361b31ada2">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='username']"}
+  (Session info: chrome=123.0.6312.58)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2292a1c614e63d17f50559361b31ada2, findElement {using=xpath, value=//*[@id='username']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.58, chrome: {chromedriverVersion: 123.0.6312.58 (6b4b19e9dfbb..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61639}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61639/devtoo..., se:cdpVersion: 123.0.6312.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2292a1c614e63d17f50559361b31ada2
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.sendKeys(Unknown Source)
+	at com.fdmgroup.pages.LoginPage.enterUsername(LoginPage.java:42)
+	at com.fdmgroup.stepdefinition.LoginStepDef.user_enters_username_as(LoginStepDef.java:28)
+	at ✽.User enters username as "emailidtesting321@gmail.com"(file:///C:/Users/Admin/eclipse-workspace/BestBuyWebsite/src/test/resources/Features/f5_Login.feature:6)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User is on login Page.................................................passed
+When User enters username as "emailidtesting321@gmail.com"..................failed
+And User enters password as "emailidtesting@3"..............................skipped
+And User clicks submit button...............................................skipped
+Then Username appears on the left side of the website.......................skipped
+]]></system-out>
+</testcase>
+</testsuite>

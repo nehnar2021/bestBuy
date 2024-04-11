@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.fdmgroup.stepdefinition.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 19.184 sec <<< FAILURE!
+Check Left Navigation Menu exists(Feature to test the main menu functionality of Best Buy website)  Time elapsed: 14.845 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.fdmgroup.pages.HomePage.displayMainMenu()" because "this.homePage" is null
+	at com.fdmgroup.stepdefinition.MainMenuStepDef.left_navigation_menu_appears(MainMenuStepDef.java:35)
+	at ✽.Left Navigation Menu appears(file:///C:/Users/Admin/eclipse-workspace/BestBuyWebsite/src/test/resources/Features/f1_MainMenu.feature:9)
+
+Check User can Navigate to Left Menu(Feature to test the main menu functionality of Best Buy website)  Time elapsed: 0.051 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.fdmgroup.pages.HomePage.displayMainMenu()" because "this.homePage" is null
+	at com.fdmgroup.stepdefinition.MainMenuStepDef.left_navigation_menu_appears(MainMenuStepDef.java:35)
+	at ✽.Left Navigation Menu appears(file:///C:/Users/Admin/eclipse-workspace/BestBuyWebsite/src/test/resources/Features/f1_MainMenu.feature:12)
+
+Check User can Navigate to Brand option(Feature to test the main menu functionality of Best Buy website)  Time elapsed: 0.035 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.fdmgroup.pages.HomePage.displayBrandInMainMenu()" because "this.homePage" is null
+	at com.fdmgroup.stepdefinition.MainMenuStepDef.user_see_brands_option(MainMenuStepDef.java:57)
+	at ✽.User see Brands option(file:///C:/Users/Admin/eclipse-workspace/BestBuyWebsite/src/test/resources/Features/f1_MainMenu.feature:18)
+
+Check User can Navigate to Brand PQRS(Feature to test the main menu functionality of Best Buy website)  Time elapsed: 0.018 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.fdmgroup.pages.HomePage.clickBrand()" because "this.homePage" is null
+	at com.fdmgroup.stepdefinition.MainMenuStepDef.user_clicks_brands_option(MainMenuStepDef.java:72)
+	at ✽.User clicks Brands option(file:///C:/Users/Admin/eclipse-workspace/BestBuyWebsite/src/test/resources/Features/f1_MainMenu.feature:23)
+

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="0" name="com.fdmgroup.stepdefinition.TestRunner" time="14.949" errors="4" skipped="0">
+  <properties>
+    <property name="jansi.mode" value="force"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.5+8"/>
+    <property name="sun.boot.library.path" value="C:\Users\Admin\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Admin\eclipse-workspace\BestBuyWebsite"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Admin\eclipse-workspace\BestBuyWebsite"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="17.0.5+8"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Admin\eclipse-workspace\cspo\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7709396670613073031.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\Admin\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/Admin/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin/server;C:/Users/Admin/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin;C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\.dotnet\tools;C:\Users\Admin\AppData\Roaming\npm;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Windows\System32;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="Admin"/>
+    <property name="java.class.path" value="C:\Users\Admin\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always install"/>
+    <property name="java.home" value="C:\Users\Admin\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="maven.home" value="C:\Users\Admin\eclipse-workspace\BestBuyWebsite\EMBEDDED"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Temurin-17.0.5+8"/>
+    <property name="m2e.build.project.data.socket.port" value="64574"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Feature to test the main menu functionality of Best Buy website" name="Check Left Navigation Menu exists" time="14.845">
+    <error message="Cannot invoke &quot;com.fdmgroup.pages.HomePage.displayMainMenu()&quot; because &quot;this.homePage&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;com.fdmgroup.pages.HomePage.displayMainMenu()&quot; because &quot;this.homePage&quot; is null
+	at com.fdmgroup.stepdefinition.MainMenuStepDef.left_navigation_menu_appears(MainMenuStepDef.java:35)
+	at ✽.Left Navigation Menu appears(file:///C:/Users/Admin/eclipse-workspace/BestBuyWebsite/src/test/resources/Features/f1_MainMenu.feature:9)
+</error>
+  </testcase>
+  <testcase classname="Feature to test the main menu functionality of Best Buy website" name="Check User can Navigate to Left Menu" time="0.051">
+    <error message="Cannot invoke &quot;com.fdmgroup.pages.HomePage.displayMainMenu()&quot; because &quot;this.homePage&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;com.fdmgroup.pages.HomePage.displayMainMenu()&quot; because &quot;this.homePage&quot; is null
+	at com.fdmgroup.stepdefinition.MainMenuStepDef.left_navigation_menu_appears(MainMenuStepDef.java:35)
+	at ✽.Left Navigation Menu appears(file:///C:/Users/Admin/eclipse-workspace/BestBuyWebsite/src/test/resources/Features/f1_MainMenu.feature:12)
+</error>
+  </testcase>
+  <testcase classname="Feature to test the main menu functionality of Best Buy website" name="Check User can Navigate to Brand option" time="0.035">
+    <error message="Cannot invoke &quot;com.fdmgroup.pages.HomePage.displayBrandInMainMenu()&quot; because &quot;this.homePage&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;com.fdmgroup.pages.HomePage.displayBrandInMainMenu()&quot; because &quot;this.homePage&quot; is null
+	at com.fdmgroup.stepdefinition.MainMenuStepDef.user_see_brands_option(MainMenuStepDef.java:57)
+	at ✽.User see Brands option(file:///C:/Users/Admin/eclipse-workspace/BestBuyWebsite/src/test/resources/Features/f1_MainMenu.feature:18)
+</error>
+  </testcase>
+  <testcase classname="Feature to test the main menu functionality of Best Buy website" name="Check User can Navigate to Brand PQRS" time="0.018">
+    <error message="Cannot invoke &quot;com.fdmgroup.pages.HomePage.clickBrand()&quot; because &quot;this.homePage&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;com.fdmgroup.pages.HomePage.clickBrand()&quot; because &quot;this.homePage&quot; is null
+	at com.fdmgroup.stepdefinition.MainMenuStepDef.user_clicks_brands_option(MainMenuStepDef.java:72)
+	at ✽.User clicks Brands option(file:///C:/Users/Admin/eclipse-workspace/BestBuyWebsite/src/test/resources/Features/f1_MainMenu.feature:23)
+</error>
+  </testcase>
+</testsuite>
