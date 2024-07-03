@@ -1,5 +1,5 @@
-# bestBuy
-This automation testing project performs regression testing of the functionality of Bestbuy website. 
+# BestBuy
+This automation testing project performs regression testing of the functionality of BestBuy website. 
 
 ## Link to the site: https://www.bestbuy.ca/en-ca
 
